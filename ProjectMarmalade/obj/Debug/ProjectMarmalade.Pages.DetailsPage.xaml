@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		x:Class="ProjectMarmalade.DetailsPage"
+		xmlns:local="clr-namespace:ProjectMarmalade"
+		xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+		Title="Report Details">
+	
+	<ContentPage.Padding>
+		<OnPlatform x:TypeArguments="Thickness" iOS="5,20,5,5" Android="5,5,5,5"/>
+	</ContentPage.Padding>
+
+	<ContentPage.Resources>
+		<ResourceDictionary>
+			<Style TargetType="Button">
+				<Setter Property="BindingContext" 
+					Value="{Binding Source={x:Static Application.Current}, Path=ViewModel}"/>
+				<Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+				<Setter Property="TextColor" Value="{Binding ActiveTheme.TextColor}"/>
+				<Setter Property="BackgroundColor" Value="{Binding ActiveTheme.BaseColor}"/>
+			</Style>
+		</ResourceDictionary>
+	</ContentPage.Resources>
+
+	<!--Visual content-->
+	<ScrollView >
+	 	<StackLayout x:Name="viewStack" Spacing="30" Padding="30" 
+				HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+			<!--License plate number-->
+			<local:InfoField x:Name="plateNumberField" FieldLabel="License Plate Number:" EntryKeyboard="Text"
+				BindingContext="{Binding Source={x:Static Application.Current}, Path=ViewModel}"
+				FieldText="{Binding PlateNumber, Mode=TwoWay}" Placeholder="e.g. 'PEW 2443'" 
+				ValidationBehavior="{local:LicensePlateValidBehavior}"/>
+			
+			<!--Vehicle description-->
+			<local:InfoField x:Name="vehicleDescriptionField" FieldLabel="Vehicle Description:" EntryKeyboard="Text"
+				BindingContext="{Binding Source={x:Static Application.Current}, Path=ViewModel}"
+				Placeholder="e.g. 'red Honda'" FieldText="{Binding VehicleDescription, Mode=TwoWay}"
+				ValidationBehavior="{local:DescriptionValidBehavior}"/>
+
+			<!--Offense Description-->
+			<local:InfoField x:Name="offenseDescriptionField" FieldLabel="Offense Description:" EntryKeyboard="Text"
+				BindingContext="{Binding Source={x:Static Application.Current}, Path=ViewModel}"
+				FieldText="{Binding OffenseDescription, Mode=TwoWay}" Placeholder="e.g. 'parking on yellow line'" 
+				ValidationBehavior="{local:DescriptionValidBehavior}"/>
+
+			<!--Location-->
+			<StackLayout x:Name="locationStack" HorizontalOptions="FillAndExpand" VerticalOptions="Start">
+				<!--Title-->
+				<StackLayout Orientation="Horizontal" HorizontalOptions="Start">
+					<Label HorizontalOptions="Start" Text="Location" FontSize="Large"/>
+					<Image x:Name="locationTick" HorizontalOptions="Start" IsVisible="false"
+							Source="tick.png" WidthRequest="20" HeightRequest="20"/>
+				</StackLayout>
+				<!--Latitude label and value-->
+				<StackLayout Orientation="Horizontal" HorizontalOptions="Start"
+						BindingContext="{Binding Source={x:Static Application.Current}, Path=ViewModel}">
+					<Label HorizontalOptions="Start" Text="Latitude: " FontSize="Medium"/>
+					<Label x:Name="latLabel" HorizontalOptions="Start" 
+						Text="{Binding Latitude, Mode = TwoWay}" FontSize="Medium"/>
+				</StackLayout>
+				<!--Longitude label and value-->
+				<StackLayout Orientation="Horizontal" HorizontalOptions="Start"
+						BindingContext="{Binding Source={x:Static Application.Current}, Path=ViewModel}">
+					<Label HorizontalOptions="Start" Text="Longitude: " FontSize="Medium"/>
+					<Label x:Name="lngLabel" HorizontalOptions="Start" 
+						Text="{Binding Longitude, Mode = TwoWay}" FontSize="Medium"/>
+				</StackLayout>
+				<!--Map-->
+				<maps:Map x:Name="locationMap" WidthRequest="700" HeightRequest="400"
+					MapType="Street" HasZoomEnabled="true" HasScrollEnabled="true" IsShowingUser="true"/>
+            	<!--Context buttons-->
+				<StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"
+						BindingContext="{Binding Source={x:Static Application.Current}, Path=ViewModel}">
+					<Button x:Name="useLocationButton" Text="Use my location" FontSize="Medium"
+							Clicked="OnUseLocationClicked" Command="{Binding GetLocationCommand}"/>
+					<Button x:Name="enlargeMapButton" Text="Enlarge map" FontSize="Medium"
+							IsVisible="false" Clicked="OnEnlargeMapClicked"/>
+				</StackLayout>
+			</StackLayout>
+
+			<Button x:Name="toSenderInfoPageButton" IsEnabled="false" 
+					Text="Info incomplete!" FontSize="Medium" Clicked="OnNextClicked"
+					Command="{Binding ToSenderInfoPageCommand}">
+				<Button.Triggers>
+					<MultiTrigger TargetType="Button">
+						
+						<MultiTrigger.Conditions>
+							<BindingCondition Binding="{Binding Source={x:Reference plateNumberField}, Path=InfoIsValid}"
+									Value="True"/>
+							<BindingCondition Binding="{Binding Source={x:Reference vehicleDescriptionField}, Path=InfoIsValid}"
+									Value="True"/>
+							<BindingCondition Binding="{Binding Source={x:Reference offenseDescriptionField}, Path=InfoIsValid}"
+									Value="True"/>
+							<BindingCondition Binding="{Binding Source={x:Reference locationTick}, Path=IsVisible}"
+									Value="True"/>
+						</MultiTrigger.Conditions>
+
+						<Setter Property="IsEnabled" Value="True"/>
+						<Setter Property="Text" Value="Next"/>
+						<Setter Property="FontSize" Value="Large"/>
+					</MultiTrigger>
+				</Button.Triggers>
+			</Button>
+		</StackLayout>
+		
+	</ScrollView>
+	
+</ContentPage>

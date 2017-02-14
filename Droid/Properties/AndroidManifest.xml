@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" 
+		android:versionName="1.0" package="com.mika.projectmarmalade">
+	<uses-sdk android:minSdkVersion="22" android:targetSdkVersion="23" />
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="com.mika.projectmarmalade.permission.MAPS_RECEIVE" />
+	<application android:label="ProjectMarmalade" android:icon="@drawable/icon">
+		<!--API key for maps function-->
+		<meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyCk5J9AYVkff0hiA-ZhJ0-b0OCQDTmfNNE"/>  
+		<!--API key for maps function-->
+	</application>
+</manifest>

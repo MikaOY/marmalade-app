@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		x:Class="ProjectMarmalade.DetailsPage"
+		xmlns:local="clr-namespace:ProjectMarmalade"
+		Title="Details Page">
+	<ContentPage.Padding>
+		<OnPlatform x:TypeArguments="Thickness" iOS="5,20,5,5" Android="5,5,5,5" />
+	</ContentPage.Padding>
+
+	<!--Visual content-->
+	<ScrollView>
+	 	<StackLayout Spacing="30" Padding="30" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+			<local:InfoField x:Name="licensePlateField" FieldLabel="License Plate Number" 
+				Placeholder="Enter license plate number of vehicle here" 
+				ValidationBehavior="{local:LicensePlateValidBehavior}"/>
+			
+			<local:InfoField x:Name="vehicleDescriptionField" FieldLabel="Vehicle Description" 
+				Placeholder="Enter breif description of the vehicle" 
+				ValidationBehavior="{local:DescriptionValidBehavior}"/>
+
+			<local:InfoField x:Name="offenseDescriptionField" FieldLabel="Offense Description" 
+				Placeholder="State the offense committed" 
+				ValidationBehavior="{local:DescriptionValidBehavior}"/>
+
+			<StackLayout VerticalOptions="Start" HorizontalOptions="Start">
+				<StackLayout Orientation="Horizontal">
+					<Label Text="Location" FontSize="Large" HorizontalOptions="Start" />
+					<Image x:Name="locationTick" Source="tick.png" WidthRequest="20" HeightRequest="20" 
+						HorizontalOptions="Start" />
+				</StackLayout>
+				<!--TODO: Enable location detection here-->
+				<!--TODO: Implement location validation check here-->
+				<Button Text="Use my location" FontSize="Medium" HorizontalOptions="Start" />
+			</StackLayout>
+
+			<Button x:Name="toSenderInfoPageButton" Text="Complete information above to proceed" FontSize="Medium" 
+					Clicked="OnNextClicked" IsEnabled="false" HorizontalOptions="FillAndExpand" >
+				<Button.Triggers>
+					<MultiTrigger TargetType="Button">
+						
+						<MultiTrigger.Conditions>
+							<BindingCondition Binding="{Binding Source={x:Reference licensePlateField}, Path=InfoIsValid}"
+									Value="True" />
+							<BindingCondition Binding="{Binding Source={x:Reference vehicleDescriptionField}, Path=InfoIsValid}"
+									Value="True" />
+							<BindingCondition Binding="{Binding Source={x:Reference offenseDescriptionField}, Path=InfoIsValid}"
+									Value="True" />
+							<BindingCondition Binding="{Binding Source={x:Reference locationTick}, Path=IsVisible}"
+									Value="True" />
+						</MultiTrigger.Conditions>
+
+						<Setter Property="IsEnabled" Value="True" />
+						<Setter Property="Text" Value="Next" />
+						<Setter Property="FontSize" Value="Large" />
+					</MultiTrigger>
+				</Button.Triggers>
+			</Button>
+		</StackLayout>
+	</ScrollView>
+	
+</ContentPage>

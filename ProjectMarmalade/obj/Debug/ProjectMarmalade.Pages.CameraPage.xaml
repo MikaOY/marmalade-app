@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		x:Class="ProjectMarmalade.CameraPage"
+		Title="Vehicle Image">
+
+	<ContentPage.Resources>
+		<ResourceDictionary>
+			<Style TargetType="Button">
+				<Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+				<Setter Property="FontSize" Value="Large"/>
+			</Style>
+		</ResourceDictionary>
+	</ContentPage.Resources>
+
+	<ScrollView>
+		<StackLayout Spacing="30" Padding="30" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+			<Image x:Name="vehicleImage" Source="carExample.jpg" Aspect="AspectFill"/>
+			
+			<StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Start">
+				<Button x:Name="snapPictureButton" Text="Use camera"
+					BindingContext="{Binding Source={x:Static Application.Current}, Path=ViewModel}"
+					TextColor="{Binding ActiveTheme.TextColor}"
+					BackgroundColor="{Binding ActiveTheme.BaseColor}"
+					Clicked="OnSnapPictureClicked"/>
+
+				<Button x:Name="selectPictureButton" Text="Choose a photo"
+					BindingContext="{Binding Source={x:Static Application.Current}, Path=ViewModel}"
+					TextColor="{Binding ActiveTheme.TextColor}"
+					BackgroundColor="{Binding ActiveTheme.BaseColor}"
+					Clicked="OnChoosePictureClicked"/>
+			</StackLayout>
+		
+			<Button x:Name="toDetailsPageButton" VerticalOptions="End" Text="Next" IsEnabled="false"
+					BindingContext="{Binding Source={x:Static Application.Current}, Path=ViewModel}"
+					TextColor="{Binding ActiveTheme.TextColor}"
+					BackgroundColor="{Binding ActiveTheme.BaseColor}"
+					Clicked="OnNextClicked" Command="{Binding ToDetailsPageCommand}"/>
+		</StackLayout>
+		
+	</ScrollView>
+	
+</ContentPage>
