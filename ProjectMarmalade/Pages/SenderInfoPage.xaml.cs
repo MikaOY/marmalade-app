@@ -21,11 +21,6 @@ namespace ProjectMarmalade
 
 		private void OnInfoChanged(object sender, EventArgs e)
 		{
-			// Save state
-			((App)Application.Current).Properties["CurrentPage"] =
-					((App)Application.Current).DSenderInfoPage.ToString();
-			((App)Application.Current).Properties["ViewModel"] = ((App)Application.Current).ViewModel.Serialize();
-
 			// Refresh button command's canExecute() 
 			((App)Application.Current).ViewModel.RefreshCommand(toConfirmationPageButton.Command);
 		}

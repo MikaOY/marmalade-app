@@ -54,22 +54,13 @@ namespace ProjectMarmalade
 
 		protected void Startup()
 		{
-			// Look for old settings to restore. If not, create new 
-			if (Properties.ContainsKey("ViewModel"))
-			{
-				// NOTE: Nav stack restored in each page constructor
-				ViewModel = ReportCreatorViewModel.Deserialize((string)Properties["ViewModel"]);
-			}
-			else
-			{
-				// Initialize resources
-				ViewModel = new ReportCreatorViewModel();
-				InitializeThemes();
-				SetupPages();
+			// Initialize resources
+			ViewModel = new ReportCreatorViewModel();
+			InitializeThemes();
+			SetupPages();
 
-				// Create new CameraPage to set as root element of nav page
-				DCameraPage = new CameraPage();
-			}
+			// Create new CameraPage to set as root element of nav page
+			DCameraPage = new CameraPage();
 
 			// Go to CameraPage, regardless of saved state
 			MainPage = new NavigationPage(DCameraPage)
@@ -77,11 +68,6 @@ namespace ProjectMarmalade
 				BarBackgroundColor = ViewModel.ActiveTheme.BaseColor,
 				BarTextColor = ViewModel.ActiveTheme.TextColor,
 			};
-
-			// Run page method to push new page if needed (part of restoring old state)
-			// NOTE: Although CurrentPage key not present in Properties dict if no saved state saved,
-			// relay method below will not relay and push new page if no key present
-			DCameraPage.RelayIfNotCurrentPage();
 		}
 
 		protected override void OnStart()
@@ -92,18 +78,11 @@ namespace ProjectMarmalade
 		protected override void OnSleep()
 		{
 			// Handle when your app sleeps
-			// NOTE: Nav stack state saved in each page
-			Properties["ViewModel"] = ViewModel.Serialize();
 		}
 
 		protected override void OnResume()
 		{
 			// Handle when your app resumes
-			// NOTE: Nav stack restored in each page constructor
-			if (Properties.ContainsKey("ViewModel"))
-			{
-				ViewModel = ReportCreatorViewModel.Deserialize((string)Properties["ViewModel"]);
-			}
 		}
 	}
 }

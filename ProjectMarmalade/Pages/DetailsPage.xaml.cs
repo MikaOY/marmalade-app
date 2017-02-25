@@ -77,11 +77,6 @@ namespace ProjectMarmalade
 			((App)Application.Current).ViewModel.Latitude = latitude;
 			((App)Application.Current).ViewModel.Longitude = longitude;
 
-			// Save state
-			((App)Application.Current).Properties["CurrentPage"] =
-					((App)Application.Current).DDetailsPage.ToString();
-			((App)Application.Current).Properties["ViewModel"] = ((App)Application.Current).ViewModel.Serialize();
-
 			// Refresh button command's canExecute() 
 			((App)Application.Current).ViewModel.RefreshCommand(toSenderInfoPageButton.Command);
 		}

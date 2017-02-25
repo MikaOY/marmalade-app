@@ -106,10 +106,6 @@ namespace ProjectMarmalade
 										  && address.InfoConfirmed
 										  && emailAddress.InfoConfirmed;
 
-			// Save state
-			((App)Application.Current).Properties["CurrentPage"] =
-					((App)Application.Current).DConfirmationPage.ToString();
-			((App)Application.Current).Properties["ViewModel"] = ((App)Application.Current).ViewModel.Serialize();
 
 			// Refresh button command's canExecute() 
 			((App)Application.Current).ViewModel.RefreshCommand(sendReportButton.Command);

@@ -1,14 +1,14 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
 		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 		x:Class="ProjectMarmalade.CameraPage"
-		Title="Vehicle Image">
+		Title="Image">
 
 	<ContentPage.Resources>
 		<ResourceDictionary>
 			<Style TargetType="Button">
 				<Setter Property="HorizontalOptions" Value="FillAndExpand"/>
-				<Setter Property="FontSize" Value="Large"/>
+				<Setter Property="FontSize" Value="Medium"/>
 			</Style>
 		</ResourceDictionary>
 	</ContentPage.Resources>

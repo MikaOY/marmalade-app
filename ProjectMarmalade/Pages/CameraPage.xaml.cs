@@ -1,4 +1,4 @@
-﻿ using System;
+﻿using System;
 using System.Collections.Generic;
 using Xamarin.Forms;
 using System.Linq;
@@ -53,7 +53,7 @@ namespace ProjectMarmalade
 		// Event raiser
 		protected virtual void OnPictureChanged(EventArgs e)
 		{
-			Debug.WriteLine("Picture changed handler raised");
+			Debug.WriteLine("Picture changed raised");
 			EventHandler handler = PictureChanged;
 			if (handler != null)
 			{
@@ -64,11 +64,6 @@ namespace ProjectMarmalade
 		// Event handler
 		private void HandlePictureChanged(object sender, EventArgs e)
 		{
-			// Save state
-			((App)Application.Current).Properties["CurrentPage"] =
-					((App)Application.Current).DCameraPage.ToString();
-			((App)Application.Current).Properties["ViewModel"] = ((App)Application.Current).ViewModel.Serialize();
-
 			// Refresh next button command's canExecute()
 			((App)Application.Current).ViewModel.RefreshCommand(toDetailsPageButton.Command);
 		}

@@ -230,7 +230,8 @@ namespace ProjectMarmalade
 			},
 			canExecute: () =>
 			{
-				return VehicleImage != null;
+				//return VehicleImage != null;
+				return true;
 			});
 
 			GetLocationCommand = new Command(

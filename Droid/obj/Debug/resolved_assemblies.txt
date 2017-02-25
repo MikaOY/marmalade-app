@@ -1,72 +1,72 @@
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/ProjectMarmalade.Droid.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.Xml.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.Core.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/Mono.Android.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/Mono.Android.Export.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/Java.Interop.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.Runtime.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/Acr.DeviceInfo.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/Acr.DeviceInfo.Interface.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/ExifLib.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/Xamarin.Android.Support.v4.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/Xamarin.Android.Support.Vector.Drawable.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/Xamarin.Android.Support.Animated.Vector.Drawable.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/Xamarin.Android.Support.v7.AppCompat.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/Xamarin.Android.Support.v7.RecyclerView.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/Xamarin.Android.Support.Design.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/Xamarin.Android.Support.v7.CardView.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/Xamarin.Android.Support.v7.MediaRouter.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/Xamarin.Forms.Platform.Android.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/FormsViewGroup.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/Xamarin.Forms.Core.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/Xamarin.Forms.Xaml.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/Xamarin.Forms.Platform.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/XLabs.Ioc.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/XLabs.Core.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/XLabs.Platform.Droid.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/XLabs.Platform.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/XLabs.Serialization.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/XLabs.Forms.Droid.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/XLabs.Forms.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/Xamarin.GooglePlayServices.Basement.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/Xamarin.GooglePlayServices.Base.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/Xamarin.GooglePlayServices.Maps.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/Xamarin.Forms.Maps.Android.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/Xamarin.Forms.Maps.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/Newtonsoft.Json.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/ProjectMarmalade.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/mscorlib.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.Net.Http.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.Runtime.Serialization.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.ServiceModel.Internals.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.Threading.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.Collections.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.Collections.Concurrent.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.Diagnostics.Debug.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.Reflection.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.Linq.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.Runtime.InteropServices.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.Runtime.Extensions.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.Reflection.Extensions.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.ComponentModel.Composition.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.ObjectModel.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.Globalization.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.Threading.Tasks.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.ComponentModel.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.Xml.ReaderWriter.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.Linq.Expressions.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.IO.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.Dynamic.Runtime.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.Text.RegularExpressions.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.Resources.ResourceManager.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.Text.Encoding.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.Runtime.Serialization.Xml.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.Runtime.Serialization.Primitives.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.Xml.XDocument.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.Xml.Linq.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.Text.Encoding.Extensions.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/Microsoft.CSharp.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/Mono.CSharp.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.Diagnostics.Tools.dll
-/Users/Mika/OneDrive/Code/Xamarin/Project Marmalade/ProjectMarmalade Xamarin.Forms/Droid/obj/Debug/android/assets/System.Xml.XmlSerializer.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/ProjectMarmalade.Droid.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.Xml.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.Core.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/Mono.Android.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/Mono.Android.Export.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/Java.Interop.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.Runtime.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/Acr.DeviceInfo.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/Acr.DeviceInfo.Interface.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/ExifLib.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/Xamarin.Android.Support.v4.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/Xamarin.Android.Support.Vector.Drawable.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/Xamarin.Android.Support.Animated.Vector.Drawable.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/Xamarin.Android.Support.v7.AppCompat.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/Xamarin.Android.Support.v7.RecyclerView.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/Xamarin.Android.Support.Design.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/Xamarin.Android.Support.v7.CardView.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/Xamarin.Android.Support.v7.MediaRouter.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/Xamarin.Forms.Platform.Android.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/FormsViewGroup.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/Xamarin.Forms.Core.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/Xamarin.Forms.Xaml.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/Xamarin.Forms.Platform.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/XLabs.Ioc.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/XLabs.Core.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/XLabs.Platform.Droid.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/XLabs.Platform.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/XLabs.Serialization.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/XLabs.Forms.Droid.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/XLabs.Forms.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/Xamarin.GooglePlayServices.Basement.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/Xamarin.GooglePlayServices.Base.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/Xamarin.GooglePlayServices.Maps.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/Xamarin.Forms.Maps.Android.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/Xamarin.Forms.Maps.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/Newtonsoft.Json.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/ProjectMarmalade.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/mscorlib.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.Net.Http.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.Runtime.Serialization.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.ServiceModel.Internals.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.Threading.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.Collections.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.Collections.Concurrent.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.Diagnostics.Debug.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.Reflection.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.Linq.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.Runtime.InteropServices.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.Runtime.Extensions.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.Reflection.Extensions.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.ComponentModel.Composition.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.ObjectModel.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.Globalization.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.Threading.Tasks.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.ComponentModel.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.Xml.ReaderWriter.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.Linq.Expressions.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.IO.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.Dynamic.Runtime.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.Text.RegularExpressions.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.Resources.ResourceManager.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.Text.Encoding.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.Runtime.Serialization.Xml.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.Runtime.Serialization.Primitives.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.Xml.XDocument.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.Xml.Linq.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.Text.Encoding.Extensions.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/Microsoft.CSharp.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/Mono.CSharp.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.Diagnostics.Tools.dll
+/Users/Mika/Desktop/marmalade-app/Droid/obj/Debug/android/assets/System.Xml.XmlSerializer.dll
