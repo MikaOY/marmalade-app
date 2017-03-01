@@ -1,7 +1,8 @@
-﻿<Properties StartupConfiguration="{C0AAA8A3-6837-4578-8B21-01E2EE29642A}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{04E21E88-B44B-4D81-A179-1DA98BBABAAC}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Main.cs">
     <Files>
       <File FileName="ProjectMarmalade/View models/ReportCreatorViewModel.cs" Line="231" Column="21" />
+      <File FileName="iOS/Main.cs" Line="17" Column="50" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.ProjectMarmalade.Droid PreferredExecutionTarget="Android.Nexus6_6.0" />
